@@ -1,26 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<div class="flex flex-col flex-wrap w-screen h-screen justify-center content-center">
+		<img alt="Vue logo" src="./assets/logo.png">
+		<SimpleTimer />
+	</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SimpleTimer from './components/SimpleTimer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+	SimpleTimer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
