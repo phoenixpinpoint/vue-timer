@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # vue-timer
 A simple Vue.js Timer
-=======
-# timer
 
 ## Project setup
 ```
@@ -26,4 +23,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 1b34a16 (init)
